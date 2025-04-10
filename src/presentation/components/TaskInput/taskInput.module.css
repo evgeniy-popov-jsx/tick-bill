@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  padding: 0px 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.input {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 0px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.timerControls {
+  display: flex;
+  gap: 10px;
+}
+
+.timerButton {
+  --font-color-dark: #323232;
+  --font-color-light: #fff;
+  --bg-color: #fff;
+  --main-color: #323232;
+  --secondary-color: #505050;
+  position: relative;
+  width: 60px;
+  height: 36px;
+  font-weight: bold;
+  background-color: var(--bg-color);
+  border: 2px solid var(--main-color);
+  border-radius: 34px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px var(--main-color);
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.timerButton:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px var(--main-color);
+}
+.title {
+  display: flex;
+  gap: 10px;
+}
+
+.finishButton {
+  --font-color-dark: #323232;
+  --font-color-light: #fff;
+  --bg-color: #fff;
+  --main-color: #323232;
+  --secondary-color: #505050;
+  position: relative;
+  font-weight: bold;
+  background-color: var(--bg-color);
+  border: 2px solid var(--main-color);
+  border-radius: 34px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px var(--main-color);
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.finishButton:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px var(--main-color);
+}

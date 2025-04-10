@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input {
+  padding: 2px 8px;
+  width: 70px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.display {
+  --font-color-dark: #323232;
+  --bg-color: #fff;
+  --main-color: #323232;
+
+  position: relative;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: var(--bg-color);
+  border: 2px solid var(--main-color);
+  border-radius: 34px;
+  box-shadow: 4px 4px var(--main-color);
+  padding: 0 12px;
+  text-align: center;
+  color: var(--font-color-dark);
+  outline: none;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  cursor: pointer;
+}
+
+.display:focus {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px var(--main-color);
+}
