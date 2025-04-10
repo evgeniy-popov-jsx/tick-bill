@@ -4,7 +4,7 @@ import { taskStore } from '../../../stores/taskStore';
 import { RateInput } from '../../components/RateInput';
 import { TitleInput } from '../../components/TitleInput';
 import { BadgeDollarSign, BadgeEuro, BadgeRussianRuble } from 'lucide-react';
-import styles from './Home.module.css';
+import styles from './home.module.css';
 import { useTranslation } from 'react-i18next';
 
 export const Home = observer(() => {
